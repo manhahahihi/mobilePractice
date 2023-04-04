@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise3"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_watch_time"
+        android:textColor="@color/black"
+        android:layout_width="250dp"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:lines="1"
+        android:padding="10px"
+        android:text="Watch the current time">
+
+    </Button>
+
+    <Button
+        android:id="@+id/next_ex_3"
+        android:layout_width="250dp"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:lines="1"
+        android:onClick="next_exercise"
+        android:padding="10px"
+        android:text="Go to Ex4"
+        android:textColor="@color/black">
+
+    </Button>
+
+</LinearLayout>
