@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <Button
+            android:id="@+id/readdatatBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="20dp"
+            android:text="Read Data"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edittextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/buttons"/>
+
+</RelativeLayout>
