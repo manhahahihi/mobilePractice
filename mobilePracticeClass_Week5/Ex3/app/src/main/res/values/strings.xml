@@ -1,0 +1,25 @@
+<resources>
+    <!--  Ex1 -->
+    <string name="app_name">Exercise 1</string>
+    <string name="ready_to_start">Click on Start button to PASS THE COURSE…</string>
+    <string name="start_task">START</string>
+    <string name="loading">"Loading…"</string>
+
+    <!--  Ex2 -->
+    <string name="instructions">You want to know the author of the book?Please enter the Title of the book below: </string>
+    <string name="button_text">Find</string>
+    <string name="input_hint">Example: Sherlock Homes</string>
+
+
+    <string name="loading1">Loading…</string>
+    <string name="no_results">"No Results Found"</string>
+    <string name="no_search_term">Please enter a search term</string>
+    <string name="no_network">Please check your network connection and try again.</string>
+
+    <!-- Ex3 -->
+    <string name="arg_alarm_obj">AlarmObject</string>
+    <string name="bundle_alarm_obj">BundleAlarmObject</string>
+    <string name="alarm_title">My Alarm</string>
+    <string name="dayNightTheme">DayNightTheme</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
